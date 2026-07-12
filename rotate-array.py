@@ -11,6 +11,11 @@ class Solution:
 def main():
     print(Solution().rotate(nums=[1,2,3,4,5,6,7], k=3))
 
+# just FYI
+def rev_string():
+    s = "mitesh"
+    new_s = s[::-1]
+    print(new_s)
 
 if __name__ == "__main__":
     main()
